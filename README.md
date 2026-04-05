@@ -35,7 +35,7 @@ Reveal all safe cells without clicking on a mine. Numbers on revealed tiles indi
 
 ### Gameplay Preview
 
-![MineSafe Screenshot](C:\Users\stayb\OneDrive\Desktop\minesweeper project\python-tkinter-minesweeper\assets\assets\screenshot.png)
+![MineSafe Screenshot](./assets/assets/screenshot.png)
 
 ---
 
