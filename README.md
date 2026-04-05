@@ -1,62 +1,68 @@
+# 💣 MineSafe — Python Tkinter Game
 
-# 💣 Minesweeper Game (Python Tkinter)
-
-A classic **Minesweeper game** built using Python and Tkinter. The game challenges players to clear a grid without triggering hidden mines, using logic and strategy.
-
-## 🎮 Features
-
-* Interactive GUI built with Tkinter
-* Random mine placement on each game start
-* Left-click to reveal cells
-* Right-click to flag suspected mines
-* Auto-reveal of adjacent empty cells
-* Game over and win detection system
-
-## 🛠️ Technologies Used
-
-* Python
-* Tkinter (for GUI)
-
-## 🚀 How to Run
-
-1. Clone the repository
-2. Navigate to the project folder
-3. Run the following command:
-
-```
-python minesweeper.py
-```
-
-*(Replace `minesweeper.py` with your actual file name if different)*
-
-## 📂 Project Structure
-
-* `minesweeper.py` → Main game logic
-* `assets/` → (optional) images/icons
-* `README.md` → Project documentation
-
-## 🎯 Objective
-
-The goal is to uncover all safe cells without clicking on a mine. Use numbers as clues to determine where mines are located.
-
-## ✨ Improvements Made
-
-* Custom UI styling
-* Optimized game logic
-* Better user interaction handling
-
-## 📌 Future Enhancements
-
-* Difficulty levels (Easy, Medium, Hard)
-* Timer and score tracking
-* Sound effects
-* Restart button
-
-## 🤝 Acknowledgment
-
-This project was inspired by the classic Minesweeper game and built for learning and practice purposes.
+MineSafe is a modern desktop implementation of the classic Minesweeper game built using **Python and Tkinter**. The game challenges players to uncover all safe tiles using logic while avoiding hidden mines.
 
 ---
 
-⭐ If you like this project, feel free to star the repository!
+## 🎮 Features
 
+* 🧩 Interactive grid-based gameplay
+* 🎯 Multiple difficulty levels (Easy, Medium, Hard)
+* 🚩 Right-click flagging system
+* ⏱️ Real-time timer tracking
+* 🏆 Best time tracking for each difficulty
+* 🔁 Restart button for quick replay
+* 🎨 Clean dark-themed UI
+* 💡 First-click safety feature
+
+---
+
+## 🛠️ Tech Stack
+
+* **Python 3**
+* **Tkinter (GUI library)**
+
+
+---
+
+## 🎯 Objective
+
+Reveal all safe cells without clicking on a mine. Numbers on revealed tiles indicate how many mines are present in adjacent cells.
+
+---
+
+## 📸 Screenshots
+
+### Gameplay Preview
+
+![MineSafe Screenshot](./assets/screenshot.png)
+
+---
+
+## 🧠 What I Learned
+
+* Event-driven programming with Tkinter
+* Grid-based game logic
+* Recursive cell revealing (flood fill)
+* Managing game state (flags, mines, revealed cells)
+* Building interactive desktop GUIs
+
+---
+
+## 🔧 Enhancements Made
+
+* Improved UI with dark theme
+* Added difficulty selection
+* Implemented timer and best score tracking
+* Enhanced gameplay with safe first click
+* Added restart functionality
+
+---
+
+## 📌 Note
+
+This project is inspired by the classic Minesweeper game and has been enhanced with additional features and UI improvements for learning and practice.
+
+---
+
+⭐ If you like this project, consider giving it a star!
