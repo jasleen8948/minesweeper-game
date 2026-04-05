@@ -24,7 +24,7 @@ A classic **Minesweeper game** built using Python and Tkinter. The game challeng
 3. Run the following command:
 
 ```
-python main.py
+python minesweeper.py
 ```
 
 *(Replace `minesweeper.py` with your actual file name if different)*
